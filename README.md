@@ -8,7 +8,9 @@ Here is a simple document on how to use Terraform to build an AWS ALB Applicatio
 
 
 # main.tf
-Here I've created VPC as a module and provided the location as source.
+Here I've created VPC as a module and provided the location as source. 
+Please refer to the below doc to create VPC as a module.
+https://github.com/hemanthsaju7/terraform-vpc-module
 
 ```
 module "awsvpc" {
