@@ -29,3 +29,7 @@ variable "hosted_zone" {
 variable "ssl_arn" {
   default = "your-ssl-arn"
 }
+
+variable "domain_name" {
+  default = "www.example.com"
+}
