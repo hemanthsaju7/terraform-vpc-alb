@@ -179,7 +179,7 @@ resource "aws_lb_listener_rule" "rule" {
 }
 ```
 # creating key pair
-#A key pair should be created in the name "key"
+A key pair "key" should be created in the working directory. 
 ```  
 resource "aws_key_pair" "mykey" {
   key_name   = "${var.project_name}-${var.project_env}"
